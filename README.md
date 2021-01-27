@@ -11,5 +11,5 @@ Provided an interactive experience in the terminal to help answer questions abou
 Bikeshare_2.py, chicago.csv new_york_city.csv, washington.csv
 
 ### Credits
-
+Udacity Mentors:)
 
