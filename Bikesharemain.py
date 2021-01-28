@@ -152,7 +152,8 @@ def user_stats(df):
     if 'Birth Year' in df.columns:
         year = df['Birth Year'].fillna(0).astype('int64')
         print(
-            f'Earliest birth year is: {year.min()}\nmost recent is: {year.max()}\nand most common birth year is: {year.mode()[0]}')
+            f'Earliest birth year is: '
+            f'{year.min()}\nmost recent is: {year.max()}\nand most common birth year is: {year.mode()[0]}')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
